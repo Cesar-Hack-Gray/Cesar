@@ -5,7 +5,9 @@ razon="~/.resultado1"
 ex="expiro"
 
 if [ ! -z $1 ] || [ ! -z $2 ]; then
-	case $1 in
+	case $1 in 
+	"F@br1x"
+	;;
 "Cesar-Estrada")
 		;;
 "The_Predator")
@@ -16,6 +18,9 @@ exit
 ;;
 esac
 case $2 in
+"Metasploit07"
+echo "si" >> ~/.resultado
+;;
 	"super1sonic")
 echo "si" >> ~/.resultado
 ;;
