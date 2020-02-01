@@ -19,8 +19,7 @@ exit
 esac
 case $2 in
 	"Metasploit07")
-echo "$bane" >> ~/.resultado
-echo "Funciona bro ?" >> ~/.resultado1
+echo "si" >> ~/.resultado
 ;;
 	"super1sonic")
 echo "si" >> ~/.resultado
