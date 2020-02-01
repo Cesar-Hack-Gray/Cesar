@@ -18,7 +18,7 @@ exit
 ;;
 esac
 case $2 in
-"Metasploit07"
+"Metasploit07")
 echo "si" >> ~/.resultado
 ;;
 	"super1sonic")
