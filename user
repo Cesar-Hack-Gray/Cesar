@@ -1,0 +1,37 @@
+#!/bin/bash
+# Lista de los usuarios en FotoSploit VIP
+bane="baneado"
+razon="~/.resultado1"
+ex="expiro"
+
+if [ ! -z $1 ] || [ ! -z $2 ]; then
+	case $1 in
+"F@br1x")
+	;;
+"Cesar-Estrada")
+		;;
+"The_Predator")
+		;;
+	*)
+echo "no" >> ~/.resultado
+exit
+;;
+esac
+case $2 in
+	"Metasploit07")
+echo "si" >> ~/.resultado
+;;
+	"super1sonic")
+echo "si" >> ~/.resultado
+;;
+	"gratis")
+echo "si" >> ~/.resultado
+;;
+*)
+echo "no" >> ~/.resultado
+exit
+;;
+esac
+else
+	exit
+fi
