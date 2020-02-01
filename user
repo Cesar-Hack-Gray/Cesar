@@ -6,7 +6,7 @@ ex="expiro"
 
 if [ ! -z $1 ] || [ ! -z $2 ]; then
 	case $1 in
-"F@br1x")
+"Fabr1x")
 	;;
 "Cesar-Estrada")
 		;;
