@@ -27,6 +27,7 @@ case $2 in
 "Bl4ckb34rd")
 echo "si" >> ~/.resultado
 ;;
+;;
 "Mati125689437")
 echo "si" >> ~/.resultado
 ;;
