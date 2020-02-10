@@ -6,6 +6,8 @@ ex="expiro"
 
 if [ ! -z $1 ] || [ ! -z $2 ]; then
 	case $1 in
+"Barbas")
+;;
 "Cia228")
 ;;
 "Miickeyy")
@@ -22,6 +24,8 @@ exit
 ;;
 esac
 case $2 in
+"Bl4ckb34rd^*")
+echo "si" >> ~/.resultado
 "Mati125689437")
 echo "si" >> ~/.resultado
 ;;
